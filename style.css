@@ -27,7 +27,7 @@ div.sec:hover {
 /* Every div that is the second child of it's parent */
 div:nth-child(2) {
   color: white;
-  background-color: rgb(61, 19, 145);
+  background-color: rgb(39, 0, 117);
 }
 
 div:nth-child(2) ul {
