@@ -1,0 +1,44 @@
+body {
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+  width: 100%;
+  
+}
+
+.container {
+  display: flex;
+}
+
+.sec {
+  border-radius: 40px;
+  margin: 5px;
+  padding: 4rem;
+  text-align: center;
+  background-color: white;
+  transition: transform .25s, visibility .25s ease-in;
+}
+
+div.sec:hover {
+  transform: scale(1.2);
+}
+
+/* Every div that is the second child of it's parent */
+div:nth-child(2) {
+  color: white;
+  background-color: rgb(61, 19, 145);
+}
+
+li {
+  text-align: left;
+}
+
+button {
+  width: 150px;
+  padding: 10px;
+  color: black;
+  border: none;
+  background-color: gold;
+  border-radius: 30px;
+}
