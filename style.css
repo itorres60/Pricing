@@ -30,6 +30,14 @@ div:nth-child(2) {
   background-color: rgb(61, 19, 145);
 }
 
+div:nth-child(2) ul {
+  list-style-image: url(./tick1.png);
+}
+
+ul {
+  list-style-image: url(./tick.png);
+}
+
 li {
   text-align: left;
 }
